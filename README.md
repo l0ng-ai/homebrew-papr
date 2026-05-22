@@ -27,5 +27,5 @@ brew untap l0ng-ai/papr
 
 This tap uses the official macOS release assets from Papr:
 
-- Apple Silicon: `Papr_0.4.5_aarch64.dmg`
-- Intel Mac: `Papr_0.4.5_x64.dmg`
+- Apple Silicon (`aarch64`)
+- Intel (`x64`)
