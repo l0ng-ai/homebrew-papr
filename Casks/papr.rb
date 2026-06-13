@@ -1,9 +1,9 @@
 cask "papr" do
   arch arm: "aarch64", intel: "x64"
 
-  version "0.6.1"
-  sha256 arm:   "d0f3033303ca8324ab257ed16799c213626d5708008aeef01f94a94df544befb",
-         intel: "a455242068c31b8afa7f9692b2a28b11b480ced94eb116770d53aa550fd975a4"
+  version "0.7.0"
+  sha256 arm:   "54e72692b22e0fa4d4cf056b3fe4d1a2fd7fba120220d3bc659caeaf59303bf3",
+         intel: "8c51a510dcc9f593cea950d21750b7bc5f5d9acdd1756d911f55f094c664589a"
 
   url "https://github.com/l0ng-ai/papr/releases/download/v#{version}/Papr_#{version}_#{arch}.dmg"
   name "Papr"
