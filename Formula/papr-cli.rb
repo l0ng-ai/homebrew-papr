@@ -1,24 +1,24 @@
 class PaprCli < Formula
   desc "Agent-facing CLI over your Papr RSS feeds"
   homepage "https://github.com/l0ng-ai/papr"
-  version "0.12.0-beta.1"
+  version "0.12.0"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/l0ng-ai/papr/releases/download/v#{version}/papr-aarch64-apple-darwin.tar.gz"
-      sha256 "3aed14af22d3916e14de247f552da1397ce1ee1997fec071960a9e1c2f9047d7"
+      sha256 "1dc43755fcab36eee80fc0297a52c65e2cab5740d42adc0dc8c7dac450047b5c"
     end
     on_intel do
       url "https://github.com/l0ng-ai/papr/releases/download/v#{version}/papr-x86_64-apple-darwin.tar.gz"
-      sha256 "1aec104cef9e49d1674ac140dc64224479295023fb7c33fd9679e21adc7755af"
+      sha256 "37bb2388d805fbfe6ad114e44f1fc82bb7db58e408d53b3c58d46d4503a41e90"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/l0ng-ai/papr/releases/download/v#{version}/papr-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "aec0ec96d8da190f132de6aa2aef54e03c1e8f7e07882bc97aa8ea308cd7c4ad"
+      sha256 "67f65135c0e9715c68680406211a2ccda7e0495eabb0fe52c97830e9490ffbf5"
     end
   end
 
